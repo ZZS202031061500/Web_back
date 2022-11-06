@@ -1,0 +1,14 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql:///study?serverTimezone=UTC
+      username: root
+      password: '010519'
+  devtools:
+    livereload:
+      enabled: true
+  mvc:
+    static-path-pattern: /**
